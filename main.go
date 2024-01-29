@@ -69,7 +69,7 @@ func createHomepage() (*Page, error) {
 	}
 
 	//Parse the rest of the templates
-	page, err := base.ParseGlob(filepath.Join("/Users/jsmith/repos/forwardomni-go/bones", "*"))
+	page, err := base.ParseGlob(filepath.Join("bones", "*"))
 	if err != nil {
 		return nil, err
 	}
