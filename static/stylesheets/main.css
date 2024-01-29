@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: x-large;
+    height: 100%;
+    max-height: inherit;
+    margin: 0;
+    background: url(../stars_background.webp);
+    background-repeat: repeat;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    height: 15vh;
+}
+
+main {
+    display: flex;
+    background: white;
+    height: 95vh;
+}
+
+.background {
+    height: inherit;
+}
+
+.main-content-area {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-grow: 6;
+}
+
+.side-content {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-area {
+    text-align: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.title h2 {
+    background-image: url(../stars_background.webp);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.bottom-area {
+    align-self: center;
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.bottom-area a {
+    color: black;
+    text-decoration: none;
+}
+
+.vid-playlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-self: center;
+    text-align: center;
+}
+
+.vid-playlist a {
+    color: black;
+    text-decoration: none;
+}

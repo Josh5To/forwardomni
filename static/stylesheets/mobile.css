@@ -1,0 +1,27 @@
+@media (width <= 1250px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .bottom-area {
+        order: 1;
+        align-self: end;
+        margin: 2vw 2vw 2vw 2vw;
+    }
+
+    .hero-area {
+        order: 2;
+    }
+
+    .side-content {
+        width: 100vw;
+        display: flex;
+    }
+
+    .vid-playlist iframe {
+        width: 75vw;
+        height: 60vh;
+    }
+}
+  
